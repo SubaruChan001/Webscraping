@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-# Step 1: Send an HTTP request to the URL of the webpage you want to scrape
 url = "https://www.gmail.com"
 response = requests.get(url)
 if response.status_code == 200:
